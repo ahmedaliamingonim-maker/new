@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavor House Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- إضافة خط Poppins من Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">FLAVOR HOUSE</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to Our Restaurant</h2>
+        <p>Delicious food made with love</p>
+        <a href="#menu" class="btn">View Menu</a>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+
+        <div class="items">
+            <div class="card">
+                <img src="https://png.pngtree.com/thumb_back/fh260/background/20230204/pngtree-burger-fire-food-hd-background-image_1541161.jpg" alt="Burger">
+                <h3>Burger</h3>
+                <p>Price: 150 EGP</p>
+            </div>
+
+            <div class="card">
+                <img src="https://png.pngtree.com/thumb_back/fh260/background/20251020/pngtree-steaming-hot-cheese-pizza-with-melted-mozzarella-and-golden-crust-a-image_19935100.webp" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Price: 220 EGP</p>
+            </div>
+
+            <div class="card">
+                <img src="https://almoatana.ly/upload/f5d4eece3207ae07ce2fb4bafc3ba248.jpeg" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>Price: 180 EGP</p>
+            </div>
+
+            <div class="card">
+                <img src="https://dubairestaurants.guide/wp-content/uploads/2023/10/8-%D9%85%D8%B7%D8%A7%D8%B9%D9%85-%D9%87%D9%88%D8%AA-%D8%AF%D9%88%D8%BA-%D9%81%D9%8A-%D8%AF%D8%A8%D9%8A-%D9%85%D8%B9-%D8%A7%D9%84%D8%B9%D9%86%D8%A7%D9%88%D9%8A%D9%86.jpg" alt="Hot Dog Sandwich">
+                <h3>Hot Dog Sandwich</h3>
+                <p>Price: 230 EGP</p>
+            </div>
+
+            <div class="card">
+                <img src="https://t4.ftcdn.net/jpg/15/03/85/47/360_F_1503854710_IAH8Py9CJomWgkcuiwUF1ZXpyueqAgqu.jpg" alt="French Fries">
+                <h3>French Fries</h3>
+                <p>Price: 50 EGP</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We offer the best quality food with fresh ingredients and amazing taste.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <div class="rating-container">
+        <h3>Rate our Restaurant</h3>
+        <div class="rating">
+            <input type="radio" id="star5" name="rate" value="5">
+            <label for="star5">★</label>
+
+            <input type="radio" id="star4" name="rate" value="4">
+            <label for="star4">★</label>
+
+            <input type="radio" id="star3" name="rate" value="3">
+            <label for="star3">★</label>
+
+            <input type="radio" id="star2" name="rate" value="2">
+            <label for="star2">★</label>
+
+            <input type="radio" id="star1" name="rate" value="1">
+            <label for="star1">★</label>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Flavor House. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
